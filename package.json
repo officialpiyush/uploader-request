@@ -1,7 +1,7 @@
 {
   "name": "uploader-request",
-  "version": "0.2.1",
-  "description": "Just A package For Managing Request's To API's",
+  "version": "0.2.2",
+  "description": "A package to upload to sites.",
   "main": "index.js",
   "repository": "https://github.com/ionadev/uploader-request.git",
   "author": "bhangalepiyush@gmail.com",
