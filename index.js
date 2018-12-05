@@ -6,3 +6,5 @@ class Request{
         this.options = this.options;
     };
 }
+
+module.exports = Request;
