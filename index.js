@@ -1,4 +1,4 @@
 module.exports = {
-    //request class
+    //request the class
     Request: require('./src/Request')
 }
