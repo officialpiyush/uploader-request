@@ -11,6 +11,6 @@ class Request{
         .then(res => res.json());
         
         return json;
+       }
 }
-
 module.exports = Request;
