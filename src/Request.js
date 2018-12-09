@@ -5,6 +5,12 @@ class Request{
     constructor(options){
         this.options = options;
     };
+    
+    async getJSON(){
+        let json = await fetch(this.options.url,this.options.data)
+        .then(res => res.json());
+        
+        return json;
 }
 
 module.exports = Request;
