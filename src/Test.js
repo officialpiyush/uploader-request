@@ -8,6 +8,7 @@ class Request{
     };
     
     async getJSON(data){
+        if(data.streamName && data.stream) this.form.append(data.streamName , data.stream);
         let json = await fetch(this.options.url,this.options.data)
         .then(res => res.json());
         
