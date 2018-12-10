@@ -1,6 +1,6 @@
 {
   "name": "uploader-request",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "A package to upload to sites.",
   "main": "index.js",
   "repository": "https://github.com/ionadev/uploader-request.git",
